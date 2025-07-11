@@ -250,7 +250,7 @@ h6 {
 .form {
     display: flex;
     justify-content: space-between;
-    margin: 75px 150px;
+    margin: 155px 150px 70px 150px;
     gap: 145px;
 }
 
@@ -258,6 +258,7 @@ h6 {
     font-weight: bold;
     font-size: 97px;
     font-family: "Raleway", sans-serif;
+    width: 528px;
 }
 
 .input_type {
@@ -274,11 +275,14 @@ h6 {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: normal;
-    color: rgba(0, 0, 0, 0);
-    width: 500px;
+    width: 435px;
     height: 70px;
     padding-left: 32px;
     border-radius: 10px;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.384);
 }
 
 .message {
@@ -288,5 +292,44 @@ h6 {
 
 .last {
     margin-top: 20px;
-    width: 537px;
+    width: 470px;
+}
+
+.footer {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    text-align: center;
+    padding: 90px 455px 104px 455px;
+    margin-top: 14px;
+}
+
+.logo_footer {
+    font-family: "Inter", sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin: 0;
+}
+
+.footer_text {
+    font-family: "Inter", sans-serif;
+    color: #8987a1c7;
+    width: 531px;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.footer_links {
+    display: flex;
+    gap: 48px;
+    width: 531px;
+    margin-top: 20px;
+    padding: 0 65px;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: #8987a1b0;
+    font-family: "Inter", sans-serif;
+    
 }
