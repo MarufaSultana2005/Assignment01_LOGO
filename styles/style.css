@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body {
+    margin: auto;
+    width: 1440px;
+}
+
+header {
+    background-image: url(../Assets/Hero-bg.png);
+    height: 698px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 0 150px;
+}
+
+.logo {
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+}
+
+button {
+    background-color: #4d47ff;
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    border: none;
+    height: 48px;
+    padding: 12px 36px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px #25243269;
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); background-color: #252432; }
+  25% { transform: scale(1.05); background-color: #252432ab; }
+  50% { transform: scale(1); background-color: #252432; }
+  75% { transform: scale(1.05); background-color: #252432ab; }
+  100% { transform: scale(1); background-color: #252432; }
+}
+
+.button:hover {
+    animation: pulse 2s infinite ease-in-out;
+    box-shadow: 0 5px 15px #4d47ffb2;
+    background-color: #252432;
+}
+
+.banner_content {
+    text-align: center;
+}
+
+.banner_heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    width: 905px;
+    margin: auto;
+    margin-top: 128px;
+    margin-bottom: 37px;
+}
