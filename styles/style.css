@@ -69,3 +69,34 @@ button {
     margin-top: 128px;
     margin-bottom: 37px;
 }
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 159px 116px 141px;
+}
+
+.wc-mini {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 24px;
+}
+
+.action_p {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: rgba(45, 36, 50, 0.5);
+    width: 517px;
+    height: 60px;
+    margin-bottom: 23px;
+}
