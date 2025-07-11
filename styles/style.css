@@ -144,7 +144,7 @@ h3 {
 }
 
 .user_reviews {
-    margin: 137px 149px;
+    margin: 137px 149px 0 149px;
     text-align: center;
 }
 
@@ -155,9 +155,8 @@ h3 {
 .reviews {
     display: flex;
     gap: 20px;
-    margin-bottom: 200px;
+    margin-bottom: 154px;
     text-align: left;
-    
 }
 
 .user_review {
@@ -211,4 +210,39 @@ h6 {
    font-family: "Inter", sans-serif;
    color: #B3B3B3; 
    margin-top: 0;
+}
+
+.ready {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 13px 150px;
+    padding: 71px 150px;
+    border-radius: 14px;
+    border: 1px solid rgba(160, 139, 139, 0.068);
+}
+
+.ready_title {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.ready_sub {
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.384);
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.wc_big {
+    border-radius: 48px;
+    width: 840px;
+    height: 364px;
+    margin-top: 2px;
 }
