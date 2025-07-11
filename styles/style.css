@@ -1,30 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.body {
-    margin: auto;
-    width: 1440px;
-    background-color: rgba(182, 220, 255, 0.11);
-}
-
-header {
-    background-image: url(../Assets/Hero-bg.png);
-    height: 698px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-    margin: 0 150px;
-}
-
-.logo {
-    font-size: 34px;
-    color: #4E47FF;
-    font-weight: 800;
-    font-family: "Inter", sans-serif;
-}
+/* Common Styles */
 
 button {
     background-color: #4d47ff;
@@ -57,6 +33,38 @@ button {
     background-color: #252432;
 }
 
+.body {
+    margin: auto;
+    width: 1440px;
+    background-color: rgba(182, 220, 255, 0.11);
+}
+
+/* Header Style */
+
+header {
+    background-image: url(../Assets/Hero-bg.png);
+    height: 698px;
+}
+
+/* Nav bar Styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 0 150px;
+}
+
+.logo {
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+}
+
+/* Banner Styles */
+
 .banner_content {
     text-align: center;
 }
@@ -71,6 +79,8 @@ button {
     margin-top: 128px;
     margin-bottom: 37px;
 }
+
+/* Action Section Styles */
 
 .action {
     display: flex;
@@ -102,6 +112,8 @@ h4 {
     height: 60px;
     margin-bottom: 23px;
 }
+
+/* Users Section Styles */
 
 .users {
     margin: auto;
@@ -142,6 +154,8 @@ h3 {
     color: rgba(0, 0, 0, 0.5);
     margin: 0;
 }
+
+/* User Reviews Section Styles */
 
 .user_reviews {
     margin: 137px 149px 0 149px;
@@ -212,6 +226,8 @@ h6 {
    margin-top: 0;
 }
 
+/* Ready Section Styles */
+
 .ready {
     display: flex;
     flex-direction: column;
@@ -246,6 +262,8 @@ h6 {
     height: 364px;
     margin-top: 2px;
 }
+
+/*  Form Section Styles */
 
 .form {
     display: flex;
@@ -294,6 +312,8 @@ h6 {
     margin-top: 20px;
     width: 470px;
 }
+
+/* Footer Styles */
 
 .footer {
     background-color: white;
