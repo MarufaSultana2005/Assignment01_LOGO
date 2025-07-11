@@ -246,3 +246,47 @@ h6 {
     height: 364px;
     margin-top: 2px;
 }
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 150px;
+    gap: 145px;
+}
+
+.get_in_touch {
+    font-weight: bold;
+    font-size: 97px;
+    font-family: "Raleway", sans-serif;
+}
+
+.input_type {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.input {
+    border: 1px solid #d6dded8e;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0);
+    width: 500px;
+    height: 70px;
+    padding-left: 32px;
+    border-radius: 10px;
+}
+
+.message {
+    padding: 5px 0 85px 32px;
+    margin-top: 0;
+}
+
+.last {
+    margin-top: 20px;
+    width: 537px;
+}
